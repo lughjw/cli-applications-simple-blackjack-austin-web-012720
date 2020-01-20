@@ -6,12 +6,13 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
+  # returns a number 1..11
   rand(11)+1
 end
 
 def display_card_total
   # code #display_card_total here
+  
 end
 
 def prompt_user
