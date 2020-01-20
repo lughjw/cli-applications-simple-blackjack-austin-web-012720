@@ -46,7 +46,7 @@ def hit?(total)
   elsif command == 'h'
     total += deal_card
   else
-    hit?
+    hit?(total)
   end
   
   total
