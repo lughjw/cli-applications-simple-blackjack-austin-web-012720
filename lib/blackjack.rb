@@ -46,7 +46,6 @@ def hit?(total)
   elsif command == 'h'
     total += deal_card
   else
-    puts "Please enter a valid command"
     hit?(total)
   end
   
@@ -55,6 +54,7 @@ end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
