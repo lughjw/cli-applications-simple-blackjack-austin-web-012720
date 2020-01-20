@@ -7,8 +7,7 @@ end
 
 def deal_card
   # code #deal_card here
-  card = rand(11)
-  binding.pry
+  rand(11)+1
 end
 
 def display_card_total
